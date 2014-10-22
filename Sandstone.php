@@ -22,7 +22,8 @@ $wgResourceModules['ext.Sandstone.main'] = array(
   'messages' => array(),
   'dependencies' => array(),
 	'localBasePath' => $dir,
-	'remoteExtPath' => $dirbasename,
+  'remoteExtPath' => $dirbasename,
+  'position' => 'top'
 );
 
 $wgHooks['BeforePageDisplay'][] = 'SandstoneHooks::onBeforePageDisplay';
