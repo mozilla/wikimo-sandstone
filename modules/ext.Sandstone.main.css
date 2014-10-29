@@ -56,18 +56,19 @@
 
 
 /**
+ * Use open fonts.
+ */
+body, .body {
+    font-family: "Open Sans", "Trebuchet MS", sans-serif !important;
+}
+
+/**
  * Sandstone background.
  */
 body {
     background: url('../images/bg-gradient-sand.png') repeat-x scroll 0% 0%, url('../images/bg-sand.png') repeat scroll 0% 0%, none repeat scroll 0% 0% #F5F1E8;
 }
 
-/**
- * Use open fonts.
- */
-body, .body {
-    font-family: "Open Sans", "Trebuchet MS", sans-serif;
-}
 h1, h2, h3, h4, h5, h6, .huge, .large, div#content #firstHeading {
     font-family: "Fira Sans", "Trebuchet MS", sans-serif !important;
 }
